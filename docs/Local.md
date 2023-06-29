@@ -118,14 +118,13 @@ You are required to explicitly give the path of the data file as a safety
 measure, so the server isn't going and making changes to any file except
 what you specify.
 
-If you do not explicitly set `DATA_FILE_PATH`, then the server will
-complain at startup with an error message about this plus exception in the
-shell output; the server will not quit, but it will not work properly.
+If you do not explicitly set `DATA_FILE_PATH`, then the API will return a
+503 response for every API call that would have needed to use the file.
 
 The actual specified data file doesn't need to exist until the actual times
 that API invocations are made of the server.  The server will re-read the
 file for every API call, and validate that it is present and is a well
-formed set of product records, and the API will return a 500 response if it
+formed set of product records, and the API will return a 503 response if it
 isn't without attempting to alter or create the file.  Assuming it is
 valid, and the API invocation is also valid, any API invocation that is
 a create/modify/remove request will rewrite the file.  You can manually

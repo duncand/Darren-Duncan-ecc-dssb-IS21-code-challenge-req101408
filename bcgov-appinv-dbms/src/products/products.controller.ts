@@ -6,6 +6,7 @@ import {
   ApiOkResponse,
   ApiOperation,
   ApiParam,
+  ApiServiceUnavailableResponse,
   ApiTags,
 } from '@nestjs/swagger';
 
@@ -28,6 +29,9 @@ export class Products_Controller {
   @ApiBadRequestResponse({
     description: 'Given request body is not of a valid format'
   })
+  @ApiServiceUnavailableResponse({
+    description: 'The Products database is currently unavailable for use',
+  })
   create_one(@Body() api_Product_S_PSID: API_Product_S_PSID) {
     return this.products_service.create_one(api_Product_S_PSID);
   }
@@ -38,6 +42,9 @@ export class Products_Controller {
   })
   @ApiOkResponse({
     description: 'Fetched a list of all existing Products',
+  })
+  @ApiServiceUnavailableResponse({
+    description: 'The Products database is currently unavailable for use',
   })
   fetch_all() {
     return this.products_service.fetch_all();
@@ -56,6 +63,9 @@ export class Products_Controller {
   })
   @ApiNotFoundResponse({
     description: 'No Product found matching given product_sid'
+  })
+  @ApiServiceUnavailableResponse({
+    description: 'The Products database is currently unavailable for use',
   })
   fetch_one(@Param('product_sid') product_sid: string): API_Product {
     return this.products_service.fetch_one(decodeURIComponent(product_sid));
@@ -76,6 +86,9 @@ export class Products_Controller {
   @ApiNotFoundResponse({
     description: 'No Product found matching given product_sid'
   })
+  @ApiServiceUnavailableResponse({
+    description: 'The Products database is currently unavailable for use',
+  })
   update_one(@Param('product_sid') product_sid: string,
       @Body() apiProduct: API_Product) {
     return this.products_service.update_one(
@@ -95,6 +108,9 @@ export class Products_Controller {
   })
   @ApiNotFoundResponse({
     description: 'No Product found matching given product_sid'
+  })
+  @ApiServiceUnavailableResponse({
+    description: 'The Products database is currently unavailable for use',
   })
   remove_one(@Param('product_sid') product_sid: string) {
     return this.products_service.remove_one(decodeURIComponent(product_sid));
