@@ -11,6 +11,32 @@ BCGOV-APPINV-WEBAPP, such that the latter is what end users typically interact
 with directly using a generic web browser, and the former is a supporting
 service providing a RESTful API that the latter consumes.
 
+## Quick Links
+
+The canonical home of this BCGOV-APPINV source code is
+<https://github.com/duncand/Darren-Duncan-ecc-dssb-IS21-code-challenge-req101408>.
+
+When you have this running locally using the example Local Deployment
+configuration, these following links should work.
+
+Visit <http://localhost:8080> in a web browser to
+actually use the application as a regular end user.
+
+Visit <http://localhost:3000/api/api-docs> to view the
+interactive REST API documentation which lets you invoke the API directly.
+
+For your convenience, following delivery of this project proper,
+I may stand up a temporary live deployment of BCGOV-APPINV on Heroku,
+so you can try it out without actually having to run it on your own machine;
+you may then find those instances running at the following urls;
+you can ask me if you don't see it there.
+
+Visit <http://req101408-bcgov-appinv-webapp.herokuapp.com> in a web browser to
+actually use the application as a regular end user.
+
+Visit <http://req101408-bcgov-appinv-dbms.herokuapp.com/api/api-docs> to view the
+interactive REST API documentation which lets you invoke the API directly.
+
 ## Contents
 
 This document consists of multiple parts:
