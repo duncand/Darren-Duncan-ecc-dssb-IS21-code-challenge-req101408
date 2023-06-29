@@ -11,7 +11,7 @@
     ],
     "product_start_date": "2023/03/31",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/jane_doe/cortexai"
+    "product_location": "https://github.com/bcgov/cortexai"
   },
   {
     "product_sid": "536901",
@@ -24,7 +24,7 @@
     ],
     "product_start_date": "2023/05/15",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/bob_johnson/agiletrackr"
+    "product_location": "https://github.com/bcgov/agiletrackr"
   },
   {
     "product_sid": "810275",
@@ -39,7 +39,7 @@
     ],
     "product_start_date": "2023/07/01",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/david_thompson/quicksilver"
+    "product_location": "https://github.com/bcgov/quicksilver"
   },
   {
     "product_sid": "146782",
@@ -51,7 +51,7 @@
     ],
     "product_start_date": "2023/08/10",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/emily_johnson/innovatech"
+    "product_location": "https://github.com/bcgov/innovatech"
   },
   {
     "product_sid": "356710",
@@ -65,7 +65,7 @@
     ],
     "product_start_date": "2023/09/22",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/daniel_wilson/codewave"
+    "product_location": "https://github.com/bcgov/codewave"
   },
   {
     "product_sid": "678921",
@@ -79,7 +79,7 @@
     ],
     "product_start_date": "2023/11/05",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/olivia_taylor/shiftgenius"
+    "product_location": "https://github.com/bcgov/shiftgenius"
   },
   {
     "product_sid": "905426",
@@ -94,7 +94,7 @@
     ],
     "product_start_date": "2024/01/15",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/noah_davis/technexus"
+    "product_location": "https://github.com/bcgov/technexus"
   },
   {
     "product_sid": "234108",
@@ -107,7 +107,7 @@
     ],
     "product_start_date": "2024/03/30",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/james_wilson/innosoft"
+    "product_location": "https://github.com/bcgov/innosoft"
   },
   {
     "product_sid": "530479",
@@ -121,7 +121,7 @@
     ],
     "product_start_date": "2024/06/12",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/william_thompson/agilehub"
+    "product_location": "https://github.com/bcgov/agilehub"
   },
   {
     "product_sid": "741296",
@@ -136,7 +136,7 @@
     ],
     "product_start_date": "2024/08/27",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/michael_johnson/bytecraft"
+    "product_location": "https://github.com/bcgov/bytecraft"
   },
   {
     "product_sid": "859274",
@@ -150,7 +150,7 @@
     ],
     "product_start_date": "2024/11/10",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/elizabeth_wilson/datalink"
+    "product_location": "https://github.com/bcgov/datalink"
   },
   {
     "product_sid": "123456",
@@ -166,7 +166,7 @@
     ],
     "product_start_date": "2025/02/01",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/matthew_davis/innotrack"
+    "product_location": "https://github.com/bcgov/innotrack"
   },
   {
     "product_sid": "654321",
@@ -179,7 +179,7 @@
     ],
     "product_start_date": "2025/04/15",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/ava_thompson/agilegen"
+    "product_location": "https://github.com/bcgov/agilegen"
   },
   {
     "product_sid": "987654",
@@ -194,7 +194,7 @@
     ],
     "product_start_date": "2025/07/01",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/chloe_davis/codelink"
+    "product_location": "https://github.com/bcgov/codelink"
   },
   {
     "product_sid": "345678",
@@ -207,7 +207,7 @@
     ],
     "product_start_date": "2025/09/16",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/lily_anderson/innovasoft"
+    "product_location": "https://github.com/bcgov/innovasoft"
   },
   {
     "product_sid": "876543",
@@ -221,7 +221,7 @@
     ],
     "product_start_date": "2025/12/01",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/alexander_davis/datagenius"
+    "product_location": "https://github.com/bcgov/datagenius"
   },
   {
     "product_sid": "890123",
@@ -235,7 +235,7 @@
     ],
     "product_start_date": "2026/02/15",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/mia_anderson/agileware"
+    "product_location": "https://github.com/bcgov/agileware"
   },
   {
     "product_sid": "654789",
@@ -249,7 +249,7 @@
     ],
     "product_start_date": "2026/05/01",
     "product_methodology": "Waterfall",
-    "product_location": "https://github.com/lucy_davis/codecraft"
+    "product_location": "https://github.com/bcgov/codecraft"
   },
   {
     "product_sid": "234567",
@@ -263,6 +263,6 @@
     ],
     "product_start_date": "2026/07/16",
     "product_methodology": "Agile",
-    "product_location": "https://github.com/emily_johnson/techgen"
+    "product_location": "https://github.com/bcgov/techgen"
   }
 ]
