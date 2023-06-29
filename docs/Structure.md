@@ -40,6 +40,7 @@ data.json   - This is the active database file (not in version control).
 data_seed_for_copying.json   - Example data for data.json in version control.
 nest-cli.json
 package.json   - Main Javascript config file the build system uses
+Procfile   - Config for Heroku
 src/
 src/app-types.ts   - A core BCGOV-APPINV logic file with most type defs and validators
 src/app.controller.spec.ts
@@ -99,7 +100,8 @@ for the BCGOV-APPINV functionality itself.
 These are the BCGOV-APPINV-WEBAPP component files:
 
 ```
-package.json
+package.json   - Main Javascript config file the build system uses
+Procfile   - Config for Heroku
 public/
 public/index.html
 public/manifest.json
