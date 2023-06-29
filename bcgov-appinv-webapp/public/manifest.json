@@ -1,0 +1,10 @@
+{
+  "short_name": "Province of British Columbia Application Inventory (BCGOV-APPINV)",
+  "name": "Province of British Columbia Application Inventory (BCGOV-APPINV) - WEBAPP",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}
